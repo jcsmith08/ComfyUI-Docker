@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "jcsmith08/ComfyUI-Docker"
+    image: "jcsmith08/comfyui-docker"
     user: "root"
     volumes: 
       - "comfy_ui:/home/runner"
@@ -22,7 +22,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "jcsmith08/ComfyUI-Docker"
+    image: "jcsmith08/comfyui-docker"
     ports:
       - "8188:8188"
     volumes:
