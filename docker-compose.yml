@@ -10,7 +10,7 @@ services:
     image: "jcsmith08/ComfyUI-Docker"
     user: "root"
     volumes: 
-      - "./storage:/home/runner"
+      - "comfy_ui:/home/runner"
     command: "chown -R runner:runner /home/runner"
 
   comfyui:
