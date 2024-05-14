@@ -37,4 +37,6 @@ services:
           devices:
             - driver: nvidia
               device_ids: ['0']
-              capabilities: [gpu]
+              capabilities: [GPU]
+volumes:
+  comfy_ui:
